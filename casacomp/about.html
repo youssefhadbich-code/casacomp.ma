@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - CASA COMP</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="/src/style.css">
+</head>
+<body>
+    <div class="min-h-screen relative">
+        <!-- Header -->
+        <header class="fixed w-full z-50">
+            <!-- Top Bar -->
+            <div class="bg-blue-600 text-white py-2">
+                <div class="container mx-auto px-4 flex items-center justify-center">
+                    <span class="text-sm font-medium">Exclusive distributor of</span>
+                    <div class="h-6 mx-2 bg-white px-3 rounded">
+                        <img
+                            src="https://www.mark-compressors.com/etc.clientlibs/settings/wcm/designs/mark/clientlib-preloaded/resources/img/png/logo.png"
+                            alt="MARK Compressors"
+                            class="h-full w-auto object-contain"
+                        />
+                    </div>
+                    <span class="text-sm font-medium flex items-center gap-2">
+                        in Morocco
+                        <img
+                            src="https://i.ibb.co/3mnnFh9M/morocco.png"
+                            alt="Moroccan Flag"
+                            class="w-4 h-4 object-contain"
+                        />
+                    </span>
+                </div>
+            </div>
+            
+            <!-- Main Header -->
+            <div class="bg-white shadow-md">
+                <div class="container mx-auto px-4">
+                    <div class="flex items-center justify-between h-20">
+                        <!-- Logo -->
+                        <div class="flex items-center space-x-2">
+                            <img 
+                                src="https://i.ibb.co/W9mnXGS/logo-casacomp-2.png" 
+                                alt="CASA COMP Logo" 
+                                class="h-16 w-auto"
+                            />
+                        </div>
+
+                        <!-- Emergency Contact -->
+                        <div class="hidden md:flex items-center text-blue-600">
+                            <i data-lucide="phone" class="w-5 h-5 mr-2"></i>
+                            <span class="font-semibold">Emergency Service: +212 668 281 346</span>
+                        </div>
+
+                        <!-- Desktop Navigation -->
+                        <nav class="hidden md:flex space-x-8">
+                            <a href="/" class="text-gray-700 hover:text-blue-600">Home</a>
+                            <div class="relative group">
+                                <a href="#products" class="text-gray-700 hover:text-blue-600">Products</a>
+                                <div class="absolute hidden group-hover:block w-48 bg-white shadow-lg rounded-lg mt-2 py-2">
+                                    <a href="#compressors" class="block px-4 py-2 text-gray-700 hover:bg-blue-50">Air Compressors</a>
+                                    <a href="#dryers" class="block px-4 py-2 text-gray-700 hover:bg-blue-50">Air Dryers</a>
+                                    <a href="#storage" class="block px-4 py-2 text-gray-700 hover:bg-blue-50">Storage Solutions</a>
+                                    <a href="#parts" class="block px-4 py-2 text-gray-700 hover:bg-blue-50">Parts & Accessories</a>
+                                </div>
+                            </div>
+                            <a href="#services" class="text-gray-700 hover:text-blue-600">Services</a>
+                            <a href="/about.html" class="text-gray-700 hover:text-blue-600">About</a>
+                            <a href="/contact.html" class="text-gray-700 hover:text-blue-600">Contact</a>
+                        </nav>
+
+                        <!-- Mobile Menu Button -->
+                        <button
+                            class="md:hidden"
+                            id="menuButton"
+                            aria-label="Toggle menu"
+                        >
+                            <i data-lucide="menu" class="w-6 h-6"></i>
+                        </button>
+                    </div>
+
+                    <!-- Mobile Navigation -->
+                    <nav id="mobileMenu" class="hidden md:hidden py-4 border-t">
+                        <div class="flex flex-col space-y-4">
+                            <a href="/" class="text-gray-700 hover:text-blue-600">Home</a>
+                            <a href="#products" class="text-gray-700 hover:text-blue-600">Products</a>
+                            <a href="#services" class="text-gray-700 hover:text-blue-600">Services</a>
+                            <a href="/about.html" class="text-gray-700 hover:text-blue-600">About</a>
+                            <a href="/contact.html" class="text-gray-700 hover:text-blue-600">Contact</a>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </header>
+
+        <main class="pt-[104px]">
+            <!-- Hero Section -->
+            <section class="relative bg-blue-900 py-24">
+                <div class="absolute inset-0 opacity-20">
+                    <img
+                        src="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&q=80"
+                        alt="Factory Background"
+                        class="w-full h-full object-cover"
+                    />
+                </div>
+                <div class="container mx-auto px-4 relative">
+                    <div class="max-w-3xl">
+                        <h1 class="text-5xl font-bold text-white mb-6">About CASA COMP</h1>
+                        <p class="text-xl text-blue-100">Your Trusted Partner in Compressed Air Solutions</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Company Overview -->
+            <section class="py-24">
+                <div class="container mx-auto px-4">
+                    <div class="grid lg:grid-cols-2 gap-16 items-center">
+                        <div>
+                            <h2 class="text-4xl font-bold text-gray-900 mb-6">Our Story</h2>
+                            <p class="text-lg text-gray-600 mb-8">
+                                Since our establishment, CASA COMP has been at the forefront of compressed air technology in Morocco. 
+                                As the exclusive distributor of MARK Compressors, we've built our reputation on delivering exceptional 
+                                quality, reliability, and service to industries across the region.
+                            </p>
+                            <p class="text-lg text-gray-600 mb-8">
+                                Our commitment goes beyond just selling products - we're dedicated to understanding our clients' needs 
+                                and providing comprehensive solutions that drive efficiency and productivity in their operations.
+                            </p>
+                            <div class="grid grid-cols-2 gap-8">
+                                <div class="text-center p-6 bg-gray-50 rounded-xl">
+                                    <div class="text-3xl font-bold text-blue-600 mb-2">25+</div>
+                                    <div class="text-gray-600">Years of Experience</div>
+                                </div>
+                                <div class="text-center p-6 bg-gray-50 rounded-xl">
+                                    <div class="text-3xl font-bold text-blue-600 mb-2">500+</div>
+                                    <div class="text-gray-600">Clients Served</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="relative">
+                            <div class="absolute inset-0 bg-gradient-to-r from-blue-600/20 to-transparent rounded-3xl transform rotate-3"></div>
+                            <img
+                                src="https://images.unsplash.com/photo-1581092334651-ddf26d9a09d0?auto=format&fit=crop&q=80"
+                                alt="Industrial Equipment"
+                                class="relative rounded-3xl shadow-2xl"
+                            />
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Mission & Values -->
+            <section class="py-24 bg-gray-50">
+                <div class="container mx-auto px-4">
+                    <div class="text-center mb-16">
+                        <h2 class="text-4xl font-bold text-gray-900 mb-6">Our Mission & Values</h2>
+                        <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+                            We strive to be the leading provider of compressed air solutions in Morocco, 
+                            delivering innovative technology and exceptional service to our clients.
+                        </p>
+                    </div>
+                    <div class="grid md:grid-cols-3 gap-8">
+                        <div class="bg-white p-8 rounded-xl shadow-lg">
+                            <div class="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mb-6">
+                                <i data-lucide="target" class="w-8 h-8 text-blue-600"></i>
+                            </div>
+                            <h3 class="text-xl font-bold text-gray-900 mb-4">Excellence</h3>
+                            <p class="text-gray-600">
+                                We maintain the highest standards in everything we do, from product quality 
+                                to customer service.
+                            </p>
+                        </div>
+                        <div class="bg-white p-8 rounded-xl shadow-lg">
+                            <div class="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mb-6">
+                                <i data-lucide="users" class="w-8 h-8 text-blue-600"></i>
+                            </div>
+                            <h3 class="text-xl font-bold text-gray-900 mb-4">Partnership</h3>
+                            <p class="text-gray-600">
+                                We build long-term relationships with our clients, understanding their needs 
+                                and growing together.
+                            </p>
+                        </div>
+                        <div class="bg-white p-8 rounded-xl shadow-lg">
+                            <div class="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mb-6">
+                                <i data-lucide="sparkles" class="w-8 h-8 text-blue-600"></i>
+                            </div>
+                            <h3 class="text-xl font-bold text-gray-900 mb-4">Innovation</h3>
+                            <p class="text-gray-600">
+                                We continuously seek new ways to improve and bring the latest technology 
+                                to our customers.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Team Section -->
+            <section class="py-24">
+                <div class="container mx-auto px-4">
+                    <div class="text-center mb-16">
+                        <h2 class="text-4xl font-bold text-gray-900 mb-6">Our Leadership Team</h2>
+                        <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+                            Meet the experienced professionals who lead our company towards excellence.
+                        </p>
+                    </div>
+                    <div class="grid md:grid-cols-3 gap-12">
+                        <div class="text-center">
+                            <div class="relative mb-6 inline-block">
+                                <div class="w-48 h-48 bg-gradient-to-br from-blue-400 to-blue-600 rounded-full absolute -inset-1"></div>
+                                <img
+                                    src="https://images.unsplash.com/photo-1560250097-0b93528c311a?auto=format&fit=crop&q=80"
+                                    alt="Team Member"
+                                    class="w-48 h-48 object-cover rounded-full relative"
+                                />
+                            </div>
+                            <h3 class="text-xl font-bold text-gray-900 mb-2">Mohammed Alami</h3>
+                            <p class="text-blue-600 mb-4">Chief Executive Officer</p>
+                            <p class="text-gray-600">
+                                20+ years of experience in industrial solutions and leadership.
+                            </p>
+                        </div>
+                        <div class="text-center">
+                            <div class="relative mb-6 inline-block">
+                                <div class="w-48 h-48 bg-gradient-to-br from-blue-400 to-blue-600 rounded-full absolute -inset-1"></div>
+                                <img
+                                    src="https://images.unsplash.com/photo-1580489944761-15a19d654956?auto=format&fit=crop&q=80"
+                                    alt="Team Member"
+                                    class="w-48 h-48 object-cover rounded-full relative"
+                                />
+                            </div>
+                            <h3 class="text-xl font-bold text-gray-900 mb-2">Sarah Benani</h3>
+                            <p class="text-blue-600 mb-4">Technical Director</p>
+                            <p class="text-gray-600">
+                                Expert in compressed air systems and energy optimization.
+                            </p>
+                        </div>
+                        <div class="text-center">
+                            <div class="relative mb-6 inline-block">
+                                <div class="w-48 h-48 bg-gradient-to-br from-blue-400 to-blue-600 rounded-full absolute -inset-1"></div>
+                                <img
+                                    src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?auto=format&fit=crop&q=80"
+                                    alt="Team Member"
+                                    class="w-48 h-48 object-cover rounded-full relative"
+                                />
+                            </div>
+                            <h3 class="text-xl font-bold text-gray-900 mb-2">Karim Tazi</h3>
+                            <p class="text-blue-600 mb-4">Service Manager</p>
+                            <p class="text-gray-600">
+                                Dedicated to ensuring exceptional customer support and service delivery.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- CTA Section -->
+            <section class="py-24 bg-blue-600">
+                <div class="container mx-auto px-4 text-center">
+                    <h2 class="text-4xl font-bold text-white mb-8">Ready to Work Together?</h2>
+                    <p class="text-xl text-blue-100 mb-12 max-w-2xl mx-auto">
+                        Let's discuss how we can help optimize your compressed air systems and improve your operations.
+                    </p>
+                    <div class="flex flex-col sm:flex-row gap-4 justify-center">
+                        <a href="/contact.html" class="bg-white text-blue-600 px-8 py-4 rounded-xl font-semibold hover:bg-blue-50 transition-all">
+                            Contact Us
+                        </a>
+                        <a href="#" class="border-2 border-white text-white px-8 py-4 rounded-xl font-semibold hover:bg-white/10 transition-all">
+                            Download Brochure
+                        </a>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <!-- Footer -->
+        <footer class="bg-gray-900 text-gray-300">
+            <div class="container mx-auto px-4 py-12">
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+                    <!-- Company Info -->
+                    <div>
+                        <h3 class="text-xl font-bold text-white mb-4">CASA COMP</h3>
+                        <div class="space-y-3">
+                            <p class="flex items-center">
+                                <i data-lucide="map-pin" class="w-5 h-5 mr-2"></i>
+                                Bd 11 Janvier - 1 Etg Appt 1<br>CASABLANCA
+                            </p>
+                            <p class="flex items-center">
+                                <i data-lucide="phone" class="w-5 h-5 mr-2"></i>
+                                +212 668 281 346
+                            </p>
+                            <p class="flex items-center">
+                                <i data-lucide="mail" class="w-5 h-5 mr-2"></i>
+                                contact@casacomp.ma
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- Quick Links -->
+                    <div>
+                        <h3 class="text-xl font-bold text-white mb-4">Quick Links</h3>
+                        <ul class="space-y-2">
+                            <li><a href="/" class="hover:text-blue-400">Home</a></li>
+                            <li><a href="#products" class="hover:text-blue-400">Products</a></li>
+                            <li><a href="#services" class="hover:text-blue-400">Services</a></li>
+                            <li><a href="/about.html" class="hover:text-blue-400">About Us</a></li>
+                            <li><a href="/contact.html" class="hover:text-blue-400">Contact</a></li>
+                        </ul>
+                    </div>
+
+                    <!-- Resources -->
+                    <div>
+                        <h3 class="text-xl font-bold text-white mb-4">Resources</h3>
+                        <ul class="space-y-2">
+                            <li><a href="#" class="hover:text-blue-400">Product Manuals</a></li>
+                            <li><a href="#" class="hover:text-blue-400">Technical Datasheets</a></li>
+                            <li><a href="#" class="hover:text-blue-400">Case Studies</a></li>
+                            <li><a href="#" class="hover:text-blue-400">FAQ</a></li>
+                            <li><a href="#" class="hover:text-blue-400">Blog</a></li>
+                        </ul>
+                    </div>
+
+                    <!-- Newsletter -->
+                    <div>
+                        <h3 class="text-xl font-bold text-white mb-4">Stay Updated</h3>
+                        <p class="mb-4">Subscribe to our newsletter for industry insights and updates.</p>
+                        <form class="space-y-3">
+                            <input
+                                type="email"
+                                placeholder="Enter your email"
+                                class="w-full px-4 py-2 rounded bg-gray-800 border border-gray-700 focus:outline-none focus:border-blue-500"
+                            />
+                            <button class="w-full bg-blue-600 text-white py-2 rounded hover:bg-blue-700 transition-colors">
+                                Subscribe
+                            </button>
+                        </form>
+                    </div>
+                </div>
+
+                <!-- Bottom Bar -->
+                <div class="mt-12 pt-8 border-t border-gray-800">
+                    <div class="flex flex-col md:flex-row justify-between items-center">
+                        <div class="text-sm mb-4 md:mb-0">
+                            © 2025 CASA COMP. All rights reserved.
+                            <span class="mx-2">|</span>
+                            <a href="#" class="hover:text-blue-400">Privacy Policy</a>
+                            <span class="mx-2">|</span>
+                            <a href="#" class="hover:text-blue-400">Terms of Service</a>
+                        </div>
+                        <div class="flex space-x-4">
+                            <a href="#" class="hover:text-blue-400"><i data-lucide="facebook" class="w-5 h-5"></i></a>
+                            <a href="#" class="hover:text-blue-400"><i data-lucide="linkedin" class="w-5 h-5"></i></a>
+                            <a href="#" class="hover:text-blue-400"><i data-lucide="twitter" class="w-5 h-5"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <script>
+        lucide.createIcons();
+
+        // Mobile menu toggle
+        const menuButton = document.getElementById('menuButton');
+        const mobileMenu = document.getElementById('mobileMenu');
+
+        menuButton.addEventListener('click', () => {
+            mobileMenu.classList.toggle('hidden');
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,804 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CASA COMP - Authorized MARK Compressors Distributor</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="/src/style.css">
+  </head>
+  <body>
+    <div class="min-h-screen relative">
+      <!-- Header -->
+      <header class="fixed w-full z-50">
+        <!-- Top Bar -->
+        <div class="bg-blue-600 text-white py-2">
+          <div class="container mx-auto px-4 flex items-center justify-center">
+            <span class="text-sm font-medium">Exclusive distributor of</span>
+            <div class="h-6 mx-2 bg-white px-3 rounded">
+              <img
+                src="https://www.mark-compressors.com/etc.clientlibs/settings/wcm/designs/mark/clientlib-preloaded/resources/img/png/logo.png"
+                alt="MARK Compressors"
+                class="h-full w-auto object-contain"
+              />
+            </div>
+            <span class="text-sm font-medium flex items-center gap-2">
+              in Morocco
+              <img
+                src="https://i.ibb.co/3mnnFh9M/morocco.png"
+                alt="Moroccan Flag"
+                class="w-4 h-4 object-contain"
+              />
+            </span>
+          </div>
+        </div>
+        
+        <!-- Main Header -->
+        <div class="bg-white shadow-md">
+          <div class="container mx-auto px-4">
+            <div class="flex items-center justify-between h-20">
+              <!-- Logo -->
+              <div class="flex items-center space-x-2">
+                <img 
+                  src="https://i.ibb.co/W9mnXGS/logo-casacomp-2.png" 
+                  alt="CASA COMP Logo" 
+                  class="h-16 w-auto"
+                />
+              </div>
+
+              <!-- Emergency Contact -->
+              <div class="hidden md:flex items-center text-blue-600">
+                <i data-lucide="phone" class="w-5 h-5 mr-2"></i>
+                <span class="font-semibold">Emergency Service: +212 668 281 346</span>
+              </div>
+
+              <!-- Desktop Navigation -->
+              <nav class="hidden md:flex space-x-8">
+                <a href="/" class="text-gray-700 hover:text-blue-600">Home</a>
+                <div class="relative group">
+                  <a href="#products" class="text-gray-700 hover:text-blue-600">Products</a>
+                  <div class="absolute hidden group-hover:block w-48 bg-white shadow-lg rounded-lg mt-2 py-2">
+                    <a href="#compressors" class="block px-4 py-2 text-gray-700 hover:bg-blue-50">Air Compressors</a>
+                    <a href="#dryers" class="block px-4 py-2 text-gray-700 hover:bg-blue-50">Air Dryers</a>
+                    <a href="#storage" class="block px-4 py-2 text-gray-700 hover:bg-blue-50">Storage Solutions</a>
+                    <a href="#parts" class="block px-4 py-2 text-gray-700 hover:bg-blue-50">Parts & Accessories</a>
+                  </div>
+                </div>
+                <a href="#services" class="text-gray-700 hover:text-blue-600">Services</a>
+                <a href="/about.html" class="text-gray-700 hover:text-blue-600">About</a>
+                <a href="/contact.html" class="text-gray-700 hover:text-blue-600">Contact</a>
+              </nav>
+
+              <!-- Mobile Menu Button -->
+              <button
+                class="md:hidden"
+                id="menuButton"
+                aria-label="Toggle menu"
+              >
+                <i data-lucide="menu" class="w-6 h-6"></i>
+              </button>
+            </div>
+
+            <!-- Mobile Navigation -->
+            <nav id="mobileMenu" class="hidden md:hidden py-4 border-t">
+              <div class="flex flex-col space-y-4">
+                <a href="/" class="text-gray-700 hover:text-blue-600">Home</a>
+                <a href="#products" class="text-gray-700 hover:text-blue-600">Products</a>
+                <a href="#services" class="text-gray-700 hover:text-blue-600">Services</a>
+                <a href="/about.html" class="text-gray-700 hover:text-blue-600">About</a>
+                <a href="/contact.html" class="text-gray-700 hover:text-blue-600">Contact</a>
+              </div>
+            </nav>
+          </div>
+        </div>
+      </header>
+
+      <!-- WhatsApp Button -->
+      <a
+        href="https://wa.me/+212668281346?text=Hello! I would like to request a FREE CONSULTATION."
+        target="_blank"
+        rel="noopener noreferrer"
+        class="fixed bottom-6 right-6 bg-green-500 text-white px-6 py-4 rounded-full shadow-lg hover:bg-green-600 transition-all duration-300 z-50 flex items-center gap-3 font-medium"
+      >
+        <i data-lucide="message-circle" class="w-6 h-6"></i>
+        <span>FREE CONSULTATION</span>
+      </a>
+
+      <main class="relative pt-[104px]">
+        <!-- Hero Section -->
+        <div class="relative">
+          <img
+            src="https://i.ibb.co/0jxMw3bm/Mark-Web-Banners-page-0002.jpg"
+            alt="MARK Compressors Banner"
+            class="w-full object-contain max-h-[600px] bg-gray-900"
+          />
+          <div class="absolute inset-0 bg-black/30"></div>
+
+          <div class="absolute bottom-8 right-8 z-10">
+            <div class="flex gap-4">
+              <div class="flex flex-wrap gap-6">
+                <button class="bg-blue-600 hover:bg-blue-700 text-white px-8 py-4 rounded-md flex items-center group transition-all">
+                  Explore Solutions
+                  <i data-lucide="arrow-right" class="ml-2 w-5 h-5 group-hover:translate-x-1 transition-transform"></i>
+                </button>
+                <button class="bg-white/10 backdrop-blur-sm border-2 border-white hover:bg-white/20 text-white px-8 py-4 rounded-md transition-all">
+                  Contact Us
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Services Section -->
+        <section class="py-24 bg-gray-900">
+          <div class="container mx-auto px-4">
+            <div class="text-center mb-16">
+              <h2 class="text-4xl font-bold text-white mb-4">Our Services</h2>
+              <p class="text-gray-400 max-w-2xl mx-auto">
+                Comprehensive industrial solutions designed to maximize your productivity
+                and minimize downtime.
+              </p>
+            </div>
+
+            <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+              <div class="group bg-gray-800 p-8 rounded-lg hover:bg-blue-900 transition-all duration-300">
+                <i data-lucide="square" class="w-12 h-12 text-blue-500 mb-6 group-hover:text-white transition-colors"></i>
+                <h3 class="text-xl font-bold text-white mb-4">Air Compressors</h3>
+                <p class="text-gray-400 group-hover:text-gray-200">State-of-the-art compressed air systems for industrial applications</p>
+              </div>
+
+              <div class="group bg-gray-800 p-8 rounded-lg hover:bg-blue-900 transition-all duration-300">
+                <i data-lucide="wind" class="w-12 h-12 text-blue-500 mb-6 group-hover:text-white transition-colors"></i>
+                <h3 class="text-xl font-bold text-white mb-4">Air Treatment</h3>
+                <p class="text-gray-400 group-hover:text-gray-200">Complete range of dryers and filtration solutions</p>
+              </div>
+
+              <div class="group bg-gray-800 p-8 rounded-lg hover:bg-blue-900 transition-all duration-300">
+                <i data-lucide="wrench" class="w-12 h-12 text-blue-500 mb-6 group-hover:text-white transition-colors"></i>
+                <h3 class="text-xl font-bold text-white mb-4">Maintenance</h3>
+                <p class="text-gray-400 group-hover:text-gray-200">24/7 emergency service and preventive maintenance programs</p>
+              </div>
+
+              <div class="group bg-gray-800 p-8 rounded-lg hover:bg-blue-900 transition-all duration-300">
+                <i data-lucide="package" class="w-12 h-12 text-blue-500 mb-6 group-hover:text-white transition-colors"></i>
+                <h3 class="text-xl font-bold text-white mb-4">Original Spare Parts</h3>
+                <p class="text-gray-400 group-hover:text-gray-200">Genuine MARK parts for optimal performance</p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Products Section -->
+        <section class="py-24 bg-gray-50">
+          <div class="container mx-auto px-4">
+            <div class="text-center mb-16">
+              <h2 class="text-4xl font-bold text-gray-900 mb-4">Our Products</h2>
+              <p class="text-gray-600 max-w-2xl mx-auto">
+                Discover our comprehensive range of MARK compressed air solutions,
+                designed to meet your industrial needs with reliability and efficiency.
+              </p>
+            </div>
+            
+            <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-12">
+              <a href="#compressors" class="group relative bg-white p-6 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 overflow-hidden">
+                <div class="aspect-square mb-6 overflow-hidden bg-gray-100 rounded-lg">
+                  <img
+                    src="https://www.mark-compressors.com/content/dam/brands/Mark/Air%20Compressors/Screw%20Compressors/rmb-rmc/image/mark_C90_pack_unit_fix_speed_hero.png/jcr:content/renditions/cq5dam.web.1200.628.png"
+                    alt="Air Compressors"
+                    class="w-full h-full object-contain p-4 group-hover:scale-105 transition-transform duration-300"
+                  />
+                </div>
+                <div class="text-center">
+                  <h3 class="text-xl font-bold text-gray-900 mb-2 group-hover:text-blue-600 transition-colors">
+                    Air Compressors
+                  </h3>
+                  <p class="text-gray-600 text-sm">Premium rotary screw & piston compressors</p>
+                </div>
+              </a>
+
+              <a href="#dryers" class="group relative bg-white p-6 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 overflow-hidden">
+                <div class="aspect-square mb-6 overflow-hidden bg-gray-100 rounded-lg">
+                  <img
+                    src="https://atlascopco.scene7.com/is/image/atlascopco/mark-e11-trequarter-right1?$landscape800$&fmt=png-alpha"
+                    alt="Air Dryers"
+                    class="w-full h-full object-contain p-4 group-hover:scale-105 transition-transform duration-300"
+                  />
+                </div>
+                <div class="text-center">
+                  <h3 class="text-xl font-bold text-gray-900 mb-2 group-hover:text-blue-600 transition-colors">
+                    Air Dryers
+                  </h3>
+                  <p class="text-gray-600 text-sm">Advanced air treatment & filtration systems</p>
+                </div>
+              </a>
+
+              <a href="#storage" class="group relative bg-white p-6 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 overflow-hidden">
+                <div class="absolute -right-12 top-8 bg-blue-600 text-white px-12 py-1 rotate-45 z-10 shadow-lg">
+                  <span class="text-sm font-semibold">SPECIAL OFFER</span>
+                </div>
+                <div class="aspect-square mb-6 overflow-hidden bg-gray-100 rounded-lg">
+                  <img
+                    src="https://www.nieruf.fr/media/c7/c2/ba/1722253438/BE01000009_BE01010009_1.png?ts=1726741634"
+                    alt="Air Storage"
+                    class="w-full h-full object-contain p-4 group-hover:scale-105 transition-transform duration-300"
+                  />
+                </div>
+                <div class="text-center">
+                  <h3 class="text-xl font-bold text-gray-900 mb-2 group-hover:text-blue-600 transition-colors">
+                    Air Storage
+                  </h3>
+                  <p class="text-gray-600 text-sm">Industrial-grade air receivers & tanks</p>
+                </div>
+              </a>
+
+              <a href="#parts" class="group relative bg-white p-6 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 overflow-hidden">
+                <div class="aspect-square mb-6 overflow-hidden bg-gray-100 rounded-lg">
+                  <img
+                    src="https://i.ibb.co/6c5Ndh9s/Screenshot-9-4-2025-191957-www-ashair-co-nz.jpg"
+                    alt="Spare Parts"
+                    class="w-full h-full object-contain p-4 group-hover:scale-105 transition-transform duration-300"
+                  />
+                </div>
+                <div class="text-center">
+                  <h3 class="text-xl font-bold text-gray-900 mb-2 group-hover:text-blue-600 transition-colors">
+                    Spare Parts
+                  </h3>
+                  <p class="text-gray-600 text-sm">Original MARK parts & maintenance kits</p>
+                </div>
+              </a>
+            </div>
+          </div>
+        </section>
+
+        <!-- About Section -->
+        <section class="py-24 bg-blue-600">
+          <div class="container mx-auto px-4">
+            <div class="grid lg:grid-cols-2 gap-16 items-center">
+              <div>
+                <h2 class="text-4xl font-bold text-white mb-6">
+                  CASA COMP - Exclusive Distributor of MARK COMPRESSOR in Morocco
+                </h2>
+                <p class="text-white/90 mb-8 text-lg">
+                  CASA COMP is proud to be the exclusive distributor of MARK COMPRESSOR Brand in Morocco part of Atlas Copco Group.
+                  This leading brand is celebrated for its innovative engineering and state-of-the-art
+                  compression solutions, designed to deliver reliable performance and energy efficiency
+                  for industrial applications.
+                </p>
+                
+                <div class="space-y-4">
+                  <div class="flex items-center space-x-3">
+                    <i data-lucide="check-circle" class="w-6 h-6 text-white"></i>
+                    <span class="text-white">Official MARK COMPRESSOR Distributor</span>
+                  </div>
+                  <div class="flex items-center space-x-3">
+                    <i data-lucide="check-circle" class="w-6 h-6 text-white"></i>
+                    <span class="text-white">Comprehensive After-Sales Support</span>
+                  </div>
+                  <div class="flex items-center space-x-3">
+                    <i data-lucide="check-circle" class="w-6 h-6 text-white"></i>
+                    <span class="text-white">Genuine Parts & Accessories</span>
+                  </div>
+                  <div class="flex items-center space-x-3">
+                    <i data-lucide="check-circle" class="w-6 h-6 text-white"></i>
+                    <span class="text-white">Expert Installation & Maintenance</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="grid grid-cols-2 gap-4">
+                <div class="space-y-4">
+                  <img
+                    src="https://media.licdn.com/dms/image/v2/D5622AQHU5G7NpXsizA/feedshare-shrink_800/B56ZU9u9UgGQAk-/0/1740497475986?e=1747267200&v=beta&t=ox6HdHOpcqePHJsG_DZoKjxmmKKq4Ecce9791vSBbnc"
+                    alt="Industrial Equipment"
+                    class="rounded-lg h-64 w-full object-cover shadow-lg"
+                  />
+                  <img
+                    src="https://lh3.googleusercontent.com/gps-cs-s/AB5caB9A2muqSm37bZtVyI7FV-4fl6nX2w6Za8WNv25mJ_jpNb0BJkny7PYTRrkmzRekbF4fMulSe53GT5lEybdgenN62MZULjetUEeV6WkBAci89vzbY7Rkae_s81DrK53xzbq9NsZP=s680-w680-h510"
+                    alt="Service Technician"
+                    class="rounded-lg h-32 w-full object-cover shadow-lg"
+                  />
+                </div>
+                <div class="space-y-4">
+                  <img
+                    src="https://images.unsplash.com/photo-1581092334651-ddf26d9a09d0?auto=format&fit=crop&q=80"
+                    alt="Factory Floor"
+                    class="rounded-lg h-32 w-full object-cover shadow-lg"
+                  />
+                  <img
+                    src="https://atlascopco.scene7.com/is/image/atlascopco/Original+Service+Ceccato1?$landscape1280$"
+                    alt="Control Panel"
+                    class="rounded-lg h-64 w-full object-cover shadow-lg"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- References Section -->
+        <section class="py-24 bg-gradient-to-b from-gray-50 to-white">
+          <div class="container mx-auto px-4">
+            <div class="text-center mb-20">
+              <h2 class="text-4xl font-bold text-gray-900 mb-4">
+                Trusted by Industry Leaders
+              </h2>
+              <p class="text-gray-600 max-w-2xl mx-auto">
+                Join Morocco's leading companies who trust CASA COMP for their
+                compressed air solutions and experience excellence in service.
+              </p>
+            </div>
+
+            <div class="grid md:grid-cols-3 gap-8 mb-20">
+              <div class="flex items-center justify-center p-6 bg-white rounded-xl shadow-lg">
+                <i data-lucide="users" class="w-12 h-12 text-blue-600 mr-4"></i>
+                <div>
+                  <div class="text-3xl font-bold text-gray-900">500+</div>
+                  <div class="text-gray-600">Satisfied Clients</div>
+                </div>
+              </div>
+              <div class="flex items-center justify-center p-6 bg-white rounded-xl shadow-lg">
+                <i data-lucide="check-circle" class="w-12 h-12 text-blue-600 mr-4"></i>
+                <div>
+                  <div class="text-3xl font-bold text-gray-900">25+</div>
+                  <div class="text-gray-600">Years Experience</div>
+                </div>
+              </div>
+              <div class="flex items-center justify-center p-6 bg-white rounded-xl shadow-lg">
+                <i data-lucide="globe" class="w-12 h-12 text-blue-600 mr-4"></i>
+                <div>
+                  <div class="text-3xl font-bold text-gray-900">300+</div>
+                  <div class="text-gray-600">Projects Completed</div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Client Logos -->
+            <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-12">
+              <div class="group relative">
+                <div class="absolute inset-0 bg-gradient-to-br from-blue-50 to-gray-50 rounded-2xl transform -rotate-6 transition-transform duration-300 group-hover:rotate-0"></div>
+                <div class="relative bg-white p-8 rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300">
+                  <div class="aspect-[3/2] flex items-center justify-center">
+                    <img src="https://www.polyfil-maroc.com/images/logo.png" alt="Polyfil Maroc logo" class="max-w-full max-h-[80px] object-contain filter group-hover:brightness-110 transition-all duration-300" />
+                  </div>
+                </div>
+              </div>
+              <div class="group relative">
+                <div class="absolute inset-0 bg-gradient-to-br from-blue-50 to-gray-50 rounded-2xl transform -rotate-6 transition-transform duration-300 group-hover:rotate-0"></div>
+                <div class="relative bg-white p-8 rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300">
+                  <div class="aspect-[3/2] flex items-center justify-center">
+                    <img src="https://www.lecreatif.ma/wp-content/uploads/2021/05/bericolor.png" alt="Bericolor logo" class="max-w-full max-h-[80px] object-contain filter group-hover:brightness-110 transition-all duration-300" />
+                  </div>
+                </div>
+              </div>
+              <div class="group relative">
+                <div class="absolute inset-0 bg-gradient-to-br from-blue-50 to-gray-50 rounded-2xl transform -rotate-6 transition-transform duration-300 group-hover:rotate-0"></div>
+                <div class="relative bg-white p-8 rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300">
+                  <div class="aspect-[3/2] flex items-center justify-center">
+                    <img src="https://www.oxair.ma/images/logo5.png" alt="Oxair logo" class="max-w-full max-h-[80px] object-contain filter group-hover:brightness-110 transition-all duration-300" />
+                  </div>
+                </div>
+              </div>
+              <div class="group relative">
+                <div class="absolute inset-0 bg-gradient-to-br from-blue-50 to-gray-50 rounded-2xl transform -rotate-6 transition-transform duration-300 group-hover:rotate-0"></div>
+                <div class="relative bg-white p-8 rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300">
+                  <div class="aspect-[3/2] flex items-center justify-center">
+                    <img src="https://media.licdn.com/dms/image/v2/D560BAQFfCHkZji2jsg/company-logo_200_200/company-logo_200_200/0/1683038725461?e=2147483647&v=beta&t=kTVxj9P1PUHItrQeZNa8yWs_LD534xtuRgqhvJf6jGE" alt="Clayens NP Morocco logo" class="max-w-full max-h-[80px] object-contain filter group-hover:brightness-110 transition-all duration-300" />
+                  </div>
+                </div>
+              </div>
+              <div class="group relative">
+                <div class="absolute inset-0 bg-gradient-to-br from-blue-50 to-gray-50 rounded-2xl transform -rotate-6 transition-transform duration-300 group-hover:rotate-0"></div>
+                <div class="relative bg-white p-8 rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300">
+                  <div class="aspect-[3/2] flex items-center justify-center">
+                    <img src="https://salidor.com/wp-content/uploads/2024/07/salidor.png" alt="Salidor logo" class="max-w-full max-h-[80px] object-contain filter group-hover:brightness-110 transition-all duration-300" />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Energy Audit Section -->
+        <section class="py-24 bg-white relative overflow-hidden">
+          <div class="absolute top-0 left-0 w-full h-32 bg-gradient-to-b from-gray-50 to-transparent"></div>
+          <div class="absolute bottom-0 right-0 w-1/3 h-full bg-blue-50 transform -skew-x-12"></div>
+          
+          <div class="container mx-auto px-4 relative">
+            <div class="max-w-4xl mx-auto text-center mb-16">
+              <span class="inline-block px-4 py-1 bg-blue-100 text-blue-800 rounded-full text-sm font-semibold mb-4">
+                Energy Optimization Services
+              </span>
+              <h2 class="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
+                Maximize Efficiency with Our Energy Audit
+              </h2>
+              <p class="text-xl text-gray-600">
+                Do you think that your compressed air system can be improved and optimised but you don't have the skills or means to make sure of it?
+              </p>
+            </div>
+
+            <div class="grid lg:grid-cols-2 gap-20 items-center">
+              <div class="space-y-8">
+                <div class="flex gap-6">
+                  <div class="flex-shrink-0">
+                    <div class="w-12 h-12 rounded-xl bg-blue-100 flex items-center justify-center">
+                      <i data-lucide="gauge" class="w-6 h-6 text-blue-600"></i>
+                    </div>
+                  </div>
+                  <div>
+                    <h3 class="text-xl font-semibold text-gray-900 mb-2">System Analysis</h3>
+                    <p class="text-gray-600">Comprehensive evaluation of your current system performance and efficiency levels</p>
+                  </div>
+                </div>
+                <div class="flex gap-6">
+                  <div class="flex-shrink-0">
+                    <div class="w-12 h-12 rounded-xl bg-blue-100 flex items-center justify-center">
+                      <i data-lucide="lightbulb" class="w-6 h-6 text-blue-600"></i>
+                    </div>
+                  </div>
+                  <div>
+                    <h3 class="text-xl font-semibold text-gray-900 mb-2">Optimization Recommendations</h3>
+                    <p class="text-gray-600">Expert suggestions for improving system efficiency and reducing energy consumption</p>
+                  </div>
+                </div>
+                <div class="flex gap-6">
+                  <div class="flex-shrink-0">
+                    <div class="w-12 h-12 rounded-xl bg-blue-100 flex items-center justify-center">
+                      <i data-lucide="file-spreadsheet" class="w-6 h-6 text-blue-600"></i>
+                    </div>
+                  </div>
+                  <div>
+                    <h3 class="text-xl font-semibold text-gray-900 mb-2">Detailed Reporting</h3>
+                    <p class="text-gray-600">In-depth analysis reports with actionable insights and ROI calculations</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="relative">
+                <img
+                  src="https://atlascopco.scene7.com/is/image/atlascopco/iiTrax+Audit?$landscape1280$"
+                  alt="Energy Audit Process"
+                  class="rounded-3xl shadow-2xl"
+                />
+              </div>
+            </div>
+
+            <div class="mt-20 text-center">
+              <p class="text-lg text-gray-600 mb-8">
+                CASA COMP / MARK will be able to help you in your approach, because auditing is a major focus of our business
+              </p>
+              <div class="flex flex-col sm:flex-row gap-4 justify-center items-center">
+                <a href="/contact.html" class="bg-blue-600 text-white px-8 py-4 rounded-xl font-semibold hover:bg-blue-700 transition-all shadow-lg hover:shadow-xl flex items-center group w-full sm:w-auto">
+                  <span>Enquire an Energy Audit</span>
+                  <i data-lucide="arrow-right" class="ml-2 w-5 h-5 group-hover:translate-x-1 transition-transform"></i>
+                </a>
+                <button class="bg-gray-100 text-gray-800 px-8 py-4 rounded-xl font-semibold hover:bg-gray-200 transition-all w-full sm:w-auto">
+                  Learn More
+                </button>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Maintenance Service Section -->
+        <section class="py-24 relative overflow-hidden">
+          <div class="container mx-auto px-4 relative">
+            <div class="flex flex-col lg:flex-row gap-16 items-center">
+              <div class="lg:w-1/2">
+                <div class="relative">
+                  <div class="absolute inset-0 bg-gradient-to-r from-blue-600/20 to-transparent rounded-3xl transform rotate-3"></div>
+                  <img
+                    src="https://i.ibb.co/zWw4HYPJ/3zcmhepm.png"
+                    alt="Maintenance Team"
+                    class="relative rounded-3xl shadow-2xl"
+                  />
+                </div>
+              </div>
+
+              <div class="lg:w-1/2">
+                <div class="mb-8">
+                  <h2 class="text-4xl font-bold text-gray-900 mb-6">
+                    Expert Compressor Maintenance Service
+                  </h2>
+                  <p class="text-xl text-gray-600 mb-8">
+                    Trust our certified technicians for all your compressed air system maintenance needs. 
+                    We ensure peak performance and reliability with genuine parts and 24/7 emergency support.
+                  </p>
+                </div>
+
+                <div class="grid gap-8">
+                  <div class="flex gap-6 items-start bg-white p-6 rounded-xl shadow-lg">
+                    <i data-lucide="wrench" class="w-10 h-10 text-blue-600"></i>
+                    <div>
+                      <h3 class="text-xl font-semibold text-gray-900 mb-2">Expert Technical Team</h3>
+                      <p class="text-gray-600">Our certified technicians undergo rigorous training to provide the highest quality service.</p>
+                    </div>
+                  </div>
+                  <div class="flex gap-6 items-start bg-white p-6 rounded-xl shadow-lg">
+                    <i data-lucide="shield-check" class="w-10 h-10 text-blue-600"></i>
+                    <div>
+                      <h3 class="text-xl font-semibold text-gray-900 mb-2">Original Spare Parts</h3>
+                      <p class="text-gray-600">We exclusively use genuine MARK parts to ensure optimal performance and reliability.</p>
+                    </div>
+                  </div>
+                  <div class="mt-8">
+                    <a href="/about.html" class="inline-flex items-center bg-blue-600 text-white px-8 py-4 rounded-xl font-semibold hover:bg-blue-700 transition-all shadow-lg hover:shadow-xl">
+                      <span>Learn More About Our Services</span>
+                      <i data-lucide="arrow-right" class="ml-2 w-5 h-5"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Airnet Section -->
+        <section class="py-24 bg-gradient-to-b from-gray-900 to-blue-900 relative overflow-hidden">
+          <div class="container mx-auto px-4 relative z-10">
+            <div class="grid lg:grid-cols-2 gap-16 items-center">
+              <div>
+                <h2 class="text-4xl font-bold text-white mb-6">
+                  AIRnet - Optimized Piping Solutions
+                </h2>
+                <p class="text-xl text-blue-100 mb-8">
+                  The right piping system makes all the difference.
+                </p>
+                <p class="text-gray-300 text-lg leading-relaxed mb-8">
+                  Preserve the power of air. Make sure that high quality compressed air 
+                  reaches your point-of-use in optimal conditions, with the right pressure 
+                  and flow.
+                </p>
+                
+                <div class="grid grid-cols-2 gap-6">
+                  <div class="bg-white/10 backdrop-blur-sm rounded-lg p-6">
+                    <i data-lucide="clock" class="w-10 h-10 text-blue-400 mb-4"></i>
+                    <h3 class="text-lg font-semibold text-white mb-2">Quick Installation</h3>
+                    <p class="text-blue-100">Fast and simple installation with push-to-fit connections</p>
+                  </div>
+                  <div class="bg-white/10 backdrop-blur-sm rounded-lg p-6">
+                    <i data-lucide="wrench" class="w-10 h-10 text-blue-400 mb-4"></i>
+                    <h3 class="text-lg font-semibold text-white mb-2">Corrosion-Free</h3>
+                    <p class="text-blue-100">High-quality aluminum pipes ensure long-lasting performance</p>
+                  </div>
+                </div>
+                <div class="mt-8">
+                  <a href="/contact.html" class="inline-flex items-center bg-white text-blue-900 px-8 py-4 rounded-xl font-semibold hover:bg-blue-50 transition-all">
+                    <span>Contact Us For More</span>
+                    <i data-lucide="arrow-right" class="ml-2 w-5 h-5"></i>
+                  </a>
+                </div>
+              </div>
+
+              <div class="relative">
+                <img
+                  src="https://www.aclengineering.co.uk/wp-content/uploads/2022/05/airnet-pipework-air-compressors.jpg"
+                  alt="AIRnet Piping System"
+                  class="w-full rounded-2xl shadow-lg"
+                />
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section class="py-24 bg-white">
+          <div class="container mx-auto px-4">
+            <div class="grid lg:grid-cols-2 gap-16">
+              <div>
+                <h2 class="text-4xl font-bold text-gray-900 mb-6">
+                  Get in Touch
+                </h2>
+                <p class="text-gray-600 mb-8">
+                  Whether you need emergency service, preventive maintenance, or a complete
+                  system design, our team is here to help.
+                </p>
+
+                <div class="space-y-6">
+                  <div class="flex items-start space-x-4">
+                    <i data-lucide="phone" class="w-6 h-6 text-blue-600 flex-shrink-0"></i>
+                    <div>
+                      <h3 class="font-semibold text-gray-900">Phone</h3>
+                      <p class="text-gray-600">+212 668 281 346</p>
+                      <p class="text-sm text-gray-500">Available 24/7 for emergencies</p>
+                    </div>
+                  </div>
+
+                  <div class="flex items-start space-x-4">
+                    <i data-lucide="mail" class="w-6 h-6 text-blue-600 flex-shrink-0"></i>
+                    <div>
+                      <h3 class="font-semibold text-gray-900">Email</h3>
+                      <p class="text-gray-600">contact@casacomp.ma</p>
+                      <p class="text-sm text-gray-500">Response within 24 hours</p>
+                    </div>
+                  </div>
+
+                  <div class="flex items-start space-x-4">
+                    <i data-lucide="map-pin" class="w-6 h-6 text-blue-600 flex-shrink-0"></i>
+                    <div>
+                      <h3 class="font-semibold text-gray-900">Location</h3>
+                      <p class="text-gray-600">
+                        Bd 11 Janvier - 1 Etg Appt 1<br>
+                        CASABLANCA
+                      </p>
+                    </div>
+                  </div>
+
+                  <div class="flex items-start space-x-4">
+                    <i data-lucide="clock" class="w-6 h-6 text-blue-600 flex-shrink-0"></i>
+                    <div>
+                      <h3 class="font-semibold text-gray-900">Hours</h3>
+                      <p class="text-gray-600">
+                        Monday - Friday: 8:00 AM - 5:00 PM<br>
+                        24/7 Emergency Service Available
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="bg-gray-100 p-8 rounded-lg">
+                <form class="space-y-6">
+                  <div class="grid md:grid-cols-2 gap-6">
+                    <div>
+                      <label class="block text-sm font-medium text-gray-700 mb-2">
+                        First Name
+                      </label>
+                      <input
+                        type="text"
+                        class="w-full px-4 py-2 rounded-lg border border-gray-300 focus:ring-2 focus:ring-blue-500 focus:border-transparent"
+                      />
+                    </div>
+                    <div>
+                      <label class="block text-sm font-medium text-gray-700 mb-2">
+                        Last Name
+                      </label>
+                      <input
+                        type="text"
+                        class="w-full px-4 py-2 rounded-lg border border-gray-300 focus:ring-2 focus:ring-blue-500 focus:border-transparent"
+                      />
+                    </div>
+                  </div>
+
+                  <div>
+                    <label class="block text-sm font-medium text-gray-700 mb-2">
+                      Email
+                    </label>
+                    <input
+                      type="email"
+                      class="w-full px-4 py-2 rounded-lg border border-gray-300 focus:ring-2 focus:ring-blue-500 focus:border-transparent"
+                    />
+                  </div>
+
+                  <div>
+                    <label class="block text-sm font-medium text-gray-700 mb-2">
+                      Phone
+                    </label>
+                    <input
+                      type="tel"
+                      class="w-full px-4 py-2 rounded-lg border border-gray-300 focus:ring-2 focus:ring-blue-500 focus:border-transparent"
+                    />
+                  </div>
+
+                  <div>
+                    <label class="block text-sm font-medium text-gray-700 mb-2">
+                      Message
+                    </label>
+                    <textarea
+                      rows="4"
+                      class="w-full px-4 py-2 rounded-lg border border-gray-300 focus:ring-2 focus:ring-blue-500 focus:border-transparent"
+                    ></textarea>
+                  </div>
+
+                  <button
+                    type="submit"
+                    class="w-full bg-blue-600 text-white py-3 rounded-lg font-semibold hover:bg-blue-700 transition-colors"
+                  >
+                    Send Message
+                  </button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <!-- Footer -->
+      <footer class="bg-gray-900 text-gray-300">
+        <div class="container mx-auto px-4 py-12">
+          <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+            <!-- Company Info -->
+            <div>
+              <h3 class="text-xl font-bold text-white mb-4">CASA COMP</h3>
+              <div class="space-y-3">
+                <p class="flex items-center">
+                  <i data-lucide="map-pin" class="w-5 h-5 mr-2"></i>
+                  Bd 11 Janvier - 1 Etg Appt 1<br>CASABLANCA
+                </p>
+                <p class="flex items-center">
+                  <i data-lucide="phone" class="w-5 h-5 mr-2"></i>
+                  +212 668 281 346
+                </p>
+                <p class="flex items-center">
+                  <i data-lucide="mail" class="w-5 h-5 mr-2"></i>
+                  contact@casacomp.ma
+                </p>
+              </div>
+            </div>
+
+            <!-- Quick Links -->
+            <div>
+              <h3 class="text-xl font-bold text-white mb-4">Quick Links</h3>
+              <ul class="space-y-2">
+                <li><a href="/" class="hover:text-blue-400">Home</a></li>
+                <li><a href="#products" class="hover:text-blue-400">Products</a></li>
+                <li><a href="#services" class="hover:text-blue-400">Services</a></li>
+                <li><a href="/about.html" class="hover:text-blue-400">About Us</a></li>
+                <li><a href="/contact.html" class="hover:text-blue-400">Contact</a></li>
+              </ul>
+            </div>
+
+            <!-- Resources -->
+            <div>
+              <h3 class="text-xl font-bold text-white mb-4">Resources</h3>
+              <ul class="space-y-2">
+                <li><a href="#" class="hover:text-blue-400">Product Manuals</a></li>
+                <li><a href="#" class="hover:text-blue-400">Technical Datasheets</a></li>
+                <li><a href="#" class="hover:text-blue-400">Case Studies</a></li>
+                <li><a href="#" class="hover:text-blue-400">FAQ</a></li>
+                <li><a href="#" class="hover:text-blue-400">Blog</a></li>
+              </ul>
+            </div>
+
+            <!-- Newsletter -->
+            <div>
+              <h3 class="text-xl font-bold text-white mb-4">Stay Updated</h3>
+              <p class="mb-4">Subscribe to our newsletter for industry insights and updates.</p>
+              <form class="space-y-3">
+                <input
+                  type="email"
+                  placeholder="Enter your email"
+                  class="w-full px-4 py-2 rounded bg-gray-800 border border-gray-700 focus:outline-none focus:border-blue-500"
+                />
+                <button class="w-full bg-blue-600 text-white py-2 rounded hover:bg-blue-700 transition-colors">
+                  Subscribe
+                </button>
+              </form>
+            </div>
+          </div>
+
+          <!-- Bottom Bar -->
+          <div class="mt-12 pt-8 border-t border-gray-800">
+            <div class="flex flex-col md:flex-row justify-between items-center">
+              <div class="text-sm mb-4 md:mb-0">
+                © 2025 CASA COMP. All rights reserved.
+                <span class="mx-2">|</span>
+                <a href="#" class="hover:text-blue-400">Privacy Policy</a>
+                <span class="mx-2">|</span>
+                <a href="#" class="hover:text-blue-400">Terms of Service</a>
+              </div>
+              <div class="flex space-x-4">
+                <a href="#" class="hover:text-blue-400"><i data-lucide="facebook" class="w-5 h-5"></i></a>
+                <a href="#" class="hover:text-blue-400"><i data-lucide="linkedin" class="w-5 h-5"></i></a>
+                <a href="#" class="hover:text-blue-400"><i data-lucide="twitter" class="w-5 h-5"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <script>
+      lucide.createIcons();
+
+      // Mobile menu toggle
+      const menuButton = document.getElementById('menuButton');
+      const mobileMenu = document.getElementById('mobileMenu');
+
+      menuButton.addEventListener('click', () => {
+        mobileMenu.classList.toggle('hidden');
+      });
+    </script>
+  </body>
+</html>
